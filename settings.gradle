@@ -1,0 +1,3 @@
+include ':TemperatureConverter'
+include ':app'
+rootProject.name = "MyTempConverter"
