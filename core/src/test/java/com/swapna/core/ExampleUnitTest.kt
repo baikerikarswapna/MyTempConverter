@@ -1,6 +1,8 @@
-package com.swapna.temperatureconverter
+package com.swapna.core
 
 import org.junit.Test
+
+import org.junit.Assert.*
 
 /**
  * Example local unit test, which will execute on the development machine (host).
@@ -10,10 +12,6 @@ import org.junit.Test
 class ExampleUnitTest {
     @Test
     fun addition_isCorrect() {
-        val input = listOf(1, 2, 2, 3, 4, 4, 5, 5, 6, 8, 9, 10, 10, 10, 10)
-        //1, 2, 2, 3, 4, 4, 5, 5, 8, 8, 9, 10, 10, 10, 10
-
-        //A = 5,4
-        //B = 8
+        assertEquals(4, 2 + 2)
     }
 }
